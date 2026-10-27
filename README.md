@@ -18,7 +18,7 @@ This repository serves as a showcase of advanced **Gameplay Programming** and **
 ### Monolithic & Data-Driven Weapon System
 Instead of using messy inheritance hierarchies with multiple scripts for different gun behaviors, this framework implements a **single, highly customizable monolithic script/system** to handle all weapon logic. 
 
-Every weapon in the game—from a fast-firing rifle to a multi-pellet shotgun—is instantiated and tuned directly within the Unity Inspector by tweaking serialized parameters:
+Every weapon in the game, from a fast-firing rifle to a multi-pellet shotgun, is instantiated and tuned directly within the Unity Inspector by tweaking serialized parameters:
 
 *   **Firing Modes:** Seamlessly switch between **Hitscan** (raycasting for instant feedback) and **Projectiles** (instantiating actual physical physics-based objects traveling through time/space).
 *   **Shotgun & Spread Logic:** Customizable pellet count, firing vectors, and random spread matrices per shot.
