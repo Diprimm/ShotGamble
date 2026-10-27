@@ -13,9 +13,9 @@ This repository serves as a showcase of advanced **Gameplay Programming** and **
 
 ---
 
-## 🛠️ Systems Architecture & Technical Features
+## Systems Architecture & Technical Features
 
-### 🔫 Monolithic & Data-Driven Weapon System
+### Monolithic & Data-Driven Weapon System
 Instead of using messy inheritance hierarchies with multiple scripts for different gun behaviors, this framework implements a **single, highly customizable monolithic script/system** to handle all weapon logic. 
 
 Every weapon in the game—from a fast-firing rifle to a multi-pellet shotgun—is instantiated and tuned directly within the Unity Inspector by tweaking serialized parameters:
@@ -26,7 +26,7 @@ Every weapon in the game—from a fast-firing rifle to a multi-pellet shotgun—
 
 <img width="500" height="668" alt="inspector" src="https://github.com/user-attachments/assets/1702ea42-246f-49d8-8a1c-833fd4f697a1" />
 
-### 💥 Advanced Juiciness & Game Feel
+### Advanced Juiciness & Game Feel
 To replicate the visceral feedback of classic 90s shooters, the weapon system dynamically drives several visual and kinetic modules:
 *   **Procedural Recoil:** Handles position and rotation spring forces per shot.
 *   **Dynamic Camera Shake:** Intensity parameters mapped per weapon profile to amplify impact.
