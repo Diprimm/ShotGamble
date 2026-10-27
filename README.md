@@ -45,4 +45,4 @@ If you clone this project:
 
 ## 📝 License
 
-This project is licensed under a custom Software and Source Code License Agreement. Commercial use and third-party asset distribution are strictly prohibited. See the [LICENSE](LICENSE) file for the full legal terms.
+This project is licensed under a MIT License Agreement. See the [LICENSE](LICENSE) file for the full legal terms.
