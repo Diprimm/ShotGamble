@@ -1,3 +1,4 @@
+
 # ShotGamble - FPS Prototype
 
 A technical Unity prototype of a fast-paced retro FPS inspired by classic shooters like *Quake*. The core objective of this project was to architect a highly scalable, data-driven weapon system optimized for modularity, rapid iteration, and high-fidelity game feel.
@@ -23,10 +24,12 @@ Every weapon in the game—from a fast-firing rifle to a multi-pellet shotgun—
 *   **Shotgun & Spread Logic:** Customizable pellet count, firing vectors, and random spread matrices per shot.
 *   **Performance Metrics:** Exposed parameters for Fire Rate, Base Damage, Range, and Custom Projectile Velocity.
 
+<img width="500" height="668" alt="inspector" src="https://github.com/user-attachments/assets/1702ea42-246f-49d8-8a1c-833fd4f697a1" />
+
 ### 💥 Advanced Juiciness & Game Feel
 To replicate the visceral feedback of classic 90s shooters, the weapon system dynamically drives several visual and kinetic modules:
 *   **Procedural Recoil:** Handles position and rotation spring forces per shot.
-*   **Dynamic Camera Shake:** Serialized intensity parameters mapped per weapon profile to amplify impact.
+*   **Dynamic Camera Shake:** Intensity parameters mapped per weapon profile to amplify impact.
 
 ---
 
